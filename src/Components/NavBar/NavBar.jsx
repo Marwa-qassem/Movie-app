@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 export default function NavBar({ userData, logOut }) {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-transparent navbar-dark">
+      <nav className="navbar navbar-expand-lg bg-transparent navbar-dark p-4 pb-0">
         <div className="container-fluid">
           <Link className="navbar-brand" to="home">
             Noxe
